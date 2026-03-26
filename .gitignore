@@ -1,0 +1,7 @@
+# Only allow release binaries and repo config — block everything else
+*
+!.gitignore
+!.gitattributes
+!README.md
+!releases/
+!releases/**/*.exe
